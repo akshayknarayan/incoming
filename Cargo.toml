@@ -1,13 +1,13 @@
 [package]
 name = "incoming"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Akshay Narayan <akshayn@mit.edu>"]
 edition = "2018"
 repository = "https://github.com/akshayknarayan/incoming"
 description = "Trait for taking ownership of a stream of incoming connections"
+readme = "./README.md"
 license = "ISC"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+maintenance = "passively-maintained"
 
 [dependencies]
 futures-util = "0.3"
