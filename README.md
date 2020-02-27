@@ -2,6 +2,8 @@
 
 This crate provides a trait for taking ownership of a [`Stream`] of incoming connections.
 
+Note: As of [this tokio commit](https://github.com/tokio-rs/tokio/commit/0589acc9ffb9175647d6b7a794edd8812f79399f), this crate is unnecessary.
+
 ## Why?
 The types tokio provides, [`tokio::net::tcp::Incoming`] and [`tokio::net::unix::Incoming`], are
 both tied to the lifetime of their respective Listeners [1].
